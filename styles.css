@@ -31,6 +31,7 @@ body{
     justify-content: space-between;
     align-items: center;
     text-shadow: 0 0 50px #000;
+    user-select: none;
 }
 
 
@@ -46,7 +47,7 @@ body{
 }
 
 .time-container .colon{
-    font-size: 6rem;
+    font-size: 7rem;
     padding: 0 1rem;
 }
 
