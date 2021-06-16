@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Particles New Tab",
+    "version": "1.0",
+    "description": "New tab page redesign with particle.js",
+    "author": "Ibrahim",
+    "chrome_url_overrides" : {
+      "newtab": "index.html"
+    }
+  }
