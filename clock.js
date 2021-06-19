@@ -17,7 +17,7 @@ const getDateAndTime = (moment) => {
     let hour = unformattedHour > 12 ? (unformattedHour - 12) : unformattedHour;
     let unformattedMinute = moment.getMinutes();
     let minute = unformattedMinute.toString().length < 2 ? ("0" + unformattedMinute) : unformattedMinute;
-    let meridiem = unformattedHour > 12 ? "pm" : "am";
+    let meridiem = unformattedHour >= 12 ? "pm" : "am";
 
     hourSpan.innerText = hour;
     minuteSpan.innerText = minute;
